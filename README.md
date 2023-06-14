@@ -53,14 +53,3 @@ dbt deps
 dbt build
 ```
 
-5. Install Evidence dependencies and run the Evidence server.
-
-```console
-cd reports
-npm install
-npm run dev
-```
-
-## Contributing
-
-We welcome issues and PRs requesting or adding new features. The package that generates the synthetic data, [`jafgen`](https://pypi.org/project/jafgen/), is also under active development, and will add more types of source data to model as we go along. If you have tests, descriptions, new models, metrics, materializations types, or techniques you use this repo to demonstrate, which you feel would make for a more expansive baseline experience, we encourage you to consider contributing them back in so that this project becomes an even better collective tool for exploring and learning dbt over time.
