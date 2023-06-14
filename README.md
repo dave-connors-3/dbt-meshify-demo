@@ -7,8 +7,6 @@ Full documentation for the dbt-meshify package is [here](https://dbt-labs.github
 Some example commands:
 
 ```
-
-
 # create a group of all models tagged with "finance"
 # leaf nodes and nodes with cross-group dependencies will be `public`
 dbt-meshify operation create-group finance --owner name Monopoly Man --select +tag:finance
