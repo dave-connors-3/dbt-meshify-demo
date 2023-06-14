@@ -19,7 +19,7 @@ dbt-meshify add-contract -s models/marts
 dbt-meshify group finance --owner name Monopoly Man --select +tag:finance
 
 # use the add-version operation to add a new version to a model
-dbt-meshify operation add-version -s fct_orders
+dbt-meshify operation add-version -s orders
 ```
 ## Set up Project with Data
 
