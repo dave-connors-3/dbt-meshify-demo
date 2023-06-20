@@ -30,7 +30,8 @@ This project is optimized for running in a container. If you'd like to use it lo
 ```console
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
 2. Install meltano with [pipx](https://pypa.github.io/pipx/installation/). And install meltano's dependencies.
