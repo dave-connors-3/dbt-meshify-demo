@@ -30,6 +30,7 @@ This project is optimized for running in a container. If you'd like to use it lo
 ```console
 python3 -m venv .venv
 source .venv/bin/activate
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
